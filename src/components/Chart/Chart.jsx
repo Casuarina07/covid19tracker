@@ -15,6 +15,7 @@ const Chart = ({ data: { confirmed, deaths, recovered }, country }) => {
         fetchAPI();
     }, []);
 
+    //line Chart for the global covid19 
     const lineChart = (
         dailyData.length
         ? (
